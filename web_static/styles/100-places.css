@@ -1,12 +1,6 @@
 .places {
   margin-bottom: 60px;
 }
-.boxes {
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-}
 .places h1 {
   font-size: 30px;
   vertical-align: top;
@@ -29,6 +23,12 @@
   text-align: center;
 }
 
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
 .places .price_by_night {
   color: #ff5a5f;
   border: #ff5a5f solid 4px;
